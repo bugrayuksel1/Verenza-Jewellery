@@ -1,0 +1,29 @@
+.container {
+  height: 638px;
+  background-color: #000;
+  display: flex;
+}
+.photo img {
+  width: 558px;
+  height: 638px;
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: "Karla", sans-serif; /* Karla fontunu kullan */
+  color: #fff;
+  margin-left: 88px;
+}
+.contents h3 {
+  margin-top: 79px;
+  font-weight: bold;
+}
+.contents h5 {
+  width: 761px;
+  height: 225px;
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 435;
+}

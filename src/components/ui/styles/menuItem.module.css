@@ -1,0 +1,10 @@
+.mainMenuItem {
+  color: rgba(0, 0, 0, 0.67); /* Siyah renk ve %67 opaklık */
+  font-size: 16px; /* Yazı boyutu */
+  padding: 10px; /* İç boşluk */
+  text-decoration: none; /* Alt çizgi olmadan */
+}
+
+.mainMenuItem span {
+  color: inherit; /* Ana renk özelliğini devral */
+}

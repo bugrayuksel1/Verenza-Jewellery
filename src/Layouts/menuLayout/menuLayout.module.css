@@ -1,0 +1,40 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainMenu {
+  display: flex;
+  justify-content: space-between; /* Öğeler arasında boşluk bırak */
+  align-items: center; /* Dikeyde ortalamak için */
+  background-color: white; /* Menü arka plan rengi */
+  width: 100%;
+  height: 83px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Menü diğer içeriklerin üstünde kalması için */
+  padding: 0 20px; /* Menü içeriği için yatayda padding */
+}
+
+.menuItems {
+  display: flex;
+  gap: 20px; /* Menü öğeleri arasında boşluk bırak */
+}
+
+.mainMenu h1 {
+  color: #000;
+  position: fixed;
+  left: 700px;
+  font-size: 27px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.content {
+  margin-top: 83px; /* Menü yüksekliği kadar boşluk bırak */
+}

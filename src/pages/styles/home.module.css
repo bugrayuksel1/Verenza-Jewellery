@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.homeBackground {
+  background-image: url("../../assets/photos/homeBackground.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Sayfanın tamamını kaplaması için */
+  margin: 0;
+  padding: 0; /* Tüm padding değerlerini sıfırlamak için */
+  overflow: hidden; /* Kaydırma çubuğunu kaldırmak için */
+}
+
+.homeBackground h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 80px;
+  position: absolute;
+  left: 66px;
+  top: 450px;
+  margin: 0;
+}
+
+.homeBackground p {
+  font-weight: 25;
+  position: absolute;
+  left: 80px;
+  top: 530px;
+}
+.homeBackground button {
+  position: absolute;
+  left: 80px;
+  top: 600px;
+}
