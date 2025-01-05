@@ -9,10 +9,10 @@ body {
   background-image: url("../../assets/photos/homeBackground.png");
   background-size: cover;
   background-position: center;
-  height: 100vh; /* Sayfanın tamamını kaplaması için */
+  height: 100vh;
   margin: 0;
-  padding: 0; /* Tüm padding değerlerini sıfırlamak için */
-  overflow: hidden; /* Kaydırma çubuğunu kaldırmak için */
+  padding: 0;
+  overflow: hidden;
 }
 
 .homeBackground h1 {

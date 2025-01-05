@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./menuLayout.module.css";
 import MenuItem from "../../components/ui/MenuItem";
+import ITemItems from "./components/ITemItems";
 
 function MenuLayout({ children }) {
   return (
@@ -13,6 +14,9 @@ function MenuLayout({ children }) {
           <MenuItem path="/contact" text="İletişim" />
         </div>
         <h1>VERENZA JEWELLERY</h1>
+        <div className={styles.inputAndLogin}>
+          <ITemItems />
+        </div>
       </div>
       <div className={styles.content}>{children}</div>
     </div>

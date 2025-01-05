@@ -34,7 +34,12 @@
   font-size: 27px;
   font-family: "Cormorant Garamond", serif;
 }
-
+.inputAndLogin {
+  width: 450px;
+  height: 32px;
+  position: absolute;
+  right: 100px;
+}
 .content {
   margin-top: 83px; /* Menü yüksekliği kadar boşluk bırak */
 }

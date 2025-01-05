@@ -1,0 +1,34 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 196px;
+  height: 32px;
+  background-color: white;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  position: absolute;
+  left: 170px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.input {
+  background-color: white;
+  height: 32px;
+  color: #705b4f;
+  border: none;
+  border-bottom: 1px solid #705b4f;
+  outline: none;
+}

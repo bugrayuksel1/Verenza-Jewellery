@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className={styles.contents}>
         <h4>ARTICLE • OCTOBER 2022</h4>
-        <h3>During the golden hour.</h3>
+        <h3>VERENZA JEWELLERY</h3>
         <h5>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Metus

@@ -1,0 +1,49 @@
+.container {
+  height: 200px;
+  background-color: #efebe8;
+  color: #000;
+  display: flex;
+  justify-content: flex-end;
+}
+.name {
+  position: absolute;
+  left: 200px;
+  margin-top: 60px;
+}
+.contents {
+  display: flex;
+  position: absolute;
+  right: 400px;
+  margin-top: 30px;
+  gap: 70px;
+  align-items: center;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.links li {
+  list-style-type: none;
+}
+.links li a {
+  color: #000;
+  transition: transform 0.5s;
+}
+.links li a:hover {
+  text-decoration: underline;
+  transform: scale(1.5);
+}
+.adress {
+  display: flex;
+  gap: 10px;
+}
+.adress img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #000; /* Change this to your desired color */
+}

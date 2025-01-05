@@ -11,19 +11,19 @@ function Categories() {
         <h4>Indulge in what we offer.</h4>
       </div>
       <div className={styles.contents}>
-        <Link>
+        <Link to="/products/necklaces">
           <img alt="necklace" src={assets.photos.necklace} />
         </Link>
-        <Link>
+        <Link to="/products/earrings">
           <img alt="earring" src={assets.photos.earring} />
         </Link>
-        <Link>
+        <Link to="/products/bracelets">
           <img alt="bracelet" src={assets.photos.bracelet} />
         </Link>
-        <Link>
+        <Link to="/products/rings">
           <img alt="rings" src={assets.photos.rings} />
         </Link>
-        <Link>
+        <Link to="/products/charms">
           <img alt="charm" src={assets.photos.charm} />
         </Link>
       </div>

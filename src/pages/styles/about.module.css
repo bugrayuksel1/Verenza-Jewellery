@@ -12,12 +12,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  font-family: "Karla", sans-serif; /* Karla fontunu kullan */
+  font-family: "Karla", sans-serif;
   color: #fff;
   margin-left: 88px;
 }
 .contents h3 {
-  margin-top: 79px;
+  margin-top: 100px;
   font-weight: bold;
 }
 .contents h5 {
@@ -25,5 +25,6 @@
   height: 225px;
   margin-top: 25px;
   font-size: 22px;
-  font-weight: 435;
+  font-weight: 300;
+  text-align: justify;
 }
