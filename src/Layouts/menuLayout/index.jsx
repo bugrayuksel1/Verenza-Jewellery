@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./menuLayout.module.css";
 import MenuItem from "../../components/ui/MenuItem";
 import ITemItems from "./components/ITemItems";
+import Contact from "../../pages/Contact";
 
 function MenuLayout({ children }) {
   return (
@@ -18,6 +19,7 @@ function MenuLayout({ children }) {
           <ITemItems />
         </div>
       </div>
+
       <div className={styles.content}>{children}</div>
     </div>
   );

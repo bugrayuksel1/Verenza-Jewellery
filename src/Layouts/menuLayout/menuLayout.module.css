@@ -30,7 +30,7 @@
 .mainMenu h1 {
   color: #000;
   position: fixed;
-  left: 700px;
+  left: 600px;
   font-size: 27px;
   font-family: "Cormorant Garamond", serif;
 }
@@ -42,4 +42,5 @@
 }
 .content {
   margin-top: 83px; /* Menü yüksekliği kadar boşluk bırak */
+  flex-grow: 1; /* Allow content to grow and push contactDiv to the bottom */
 }
