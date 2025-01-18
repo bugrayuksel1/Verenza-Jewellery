@@ -10,7 +10,6 @@ function Necklaces() {
       <div className={styles.container}>
         <div className={styles.header}>
           <h1>Kolyeler</h1>
-          <h5>Lorem ipsum dolor sit amet.</h5>
         </div>
         <div className={styles.filter}></div>
         <div className={styles.products}>

@@ -1,7 +1,13 @@
 import React from "react";
+import Categories from "./Categories";
+import MenuLayout from "../Layouts/menuLayout/index";
 
 function Products() {
-  return <div>Products</div>;
+  return (
+    <MenuLayout>
+      <Categories />
+    </MenuLayout>
+  );
 }
 
 export default Products;

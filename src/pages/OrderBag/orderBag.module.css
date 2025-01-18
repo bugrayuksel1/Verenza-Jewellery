@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  background-color: #fff;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.orderReview {
+  width: 871px;
+  height: auto;
+  border: 1px solid #000;
+  position: absolute;
+  left: 81px;
+  top: 180px;
+}
+.orderReview h3 {
+  margin-left: 10px;
+  color: #000;
+}
+.orderTotal {
+  width: 414px;
+  height: 303px;
+  border: 1px solid #000;
+  position: absolute;
+  top: 249px;
+  right: 82px;
+  color: #000;
+}
+.orderTotal h3 {
+  margin-left: 20px;
+}
+hr {
+  background-color: rgba(191, 191, 191, 0.7);
+  border: none;
+  height: 1px;
+  width: 798px;
+}
