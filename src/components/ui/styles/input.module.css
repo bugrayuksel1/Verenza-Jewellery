@@ -4,6 +4,7 @@
   width: 196px;
   height: 32px;
   background-color: white;
+  gap: 10px;
 }
 
 .inputWrapper {
@@ -27,6 +28,7 @@
 .input {
   background-color: white;
   height: 32px;
+  width: 300px;
   color: #705b4f;
   border: none;
   border-bottom: 1px solid #705b4f;

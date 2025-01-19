@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "4065",
+      "firstName": "buğra",
+      "lastName": "yüksel",
+      "phone": "5309314646",
+      "email": "bugra@test.com",
+      "password": "123123"
+    },
+    {
+      "id": "60ec",
+      "email": "bugra@test.com",
+      "password": "123122",
+      "fullName": "buğra yüksel",
+      "confirmPassword": "123123"
+    },
+    {
+      "id": "8d98",
+      "fullName": "buğra yüksel",
+      "email": "bugra@tsest.com",
+      "password": "123123",
+      "confirmPassword": "123123"
+    }
+  ]
+}

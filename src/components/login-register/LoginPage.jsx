@@ -6,12 +6,20 @@ import styles from "./styles/loginPage.module.css";
 function LoginPage() {
   return (
     <div className={styles.container}>
-      <Card>
-        <LoginForm />
-        <p>
-          Hesabınız Yok Mu? <Link to="register">Kayıt Ol</Link>
-        </p>
-      </Card>
+      <div className={styles.contents}>
+        <Card>
+          <h1>Giriş Yapın</h1>
+          <p>
+            Hesabınız yok mu?
+            <Link to="/register" className={styles.link}>
+              Kayıt Ol
+            </Link>
+          </p>
+          <div className={styles.form}>
+            <LoginForm />
+          </div>
+        </Card>
+      </div>
     </div>
   );
 }

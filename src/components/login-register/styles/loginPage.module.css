@@ -2,9 +2,41 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  margin-top: -20px; /* Adjust this value to move h1 and p upwards */
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+}
+.link {
+  color: #705b4f;
+  font-size: 20px;
+  font-weight: bold;
+}
+.link:hover {
+  color: rgb(120, 120, 209);
+  text-decoration: underline;
+}
+.contents {
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  border: 20px solid red;
+}
+.form {
+  margin-top: 50px;
 }

@@ -3,6 +3,15 @@
   display: flex;
   align-items: center;
 }
+.container input {
+  background-color: white;
+  height: 32px;
+  color: #705b4f;
+  border: none;
+  border-bottom: 1px solid #705b4f;
+  outline: none;
+  color: black;
+}
 .icons {
   display: flex;
   gap: 45px;
@@ -12,4 +21,11 @@
 .icons img {
   width: 30px;
   height: 30px;
+}
+.icon {
+  position: absolute;
+  left: 170px;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }

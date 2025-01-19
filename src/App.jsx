@@ -12,6 +12,7 @@ import Charms from "./pages/Products/Charms";
 import ProductDetail from "./pages/Products/ProductDetail";
 import OrderBag from "./pages/OrderBag/OrderBag";
 import LoginPage from "./components/login-register/LoginPage";
+import RegisterPage from "./components/login-register/RegisterPage";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/orderbag" element={<OrderBag />} />
 
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
       </Routes>
     </BrowserRouter>
   );

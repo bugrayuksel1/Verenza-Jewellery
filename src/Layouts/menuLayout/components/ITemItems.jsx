@@ -8,7 +8,10 @@ function ITemItems() {
   return (
     <div className={styles.container}>
       <div className={styles.inputContainer}>
-        <Input placeholder="Ara..." />
+        <span className={styles.icon}>
+          <img src={assets.icons.search} alt="search" />
+        </span>
+        <input placeholder="Ara..." />
       </div>
       <div className={styles.icons}>
         <Link>
@@ -17,7 +20,7 @@ function ITemItems() {
         <Link to="/orderbag">
           <img alt="boxBag" src={assets.icons.boxBag} />
         </Link>
-        <Link to="/login">
+        <Link to="login">
           <img alt="user" src={assets.icons.user} />
         </Link>
       </div>
